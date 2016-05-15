@@ -1,0 +1,137 @@
+@charset "UTF-8";
+body {
+  font-family: ShareTech-Regular; }
+
+/* TOP MENU: */
+nav {
+  font-size: 26px;
+  color: #000000;
+  letter-spacing: 0px;
+  margin-top: 40px; }
+
+nav li {
+  display: inline;
+  /*float: right;*/ }
+
+nav ul {
+  list-style-type: none; }
+
+svg:last-child {
+  margin-left: -8px; }
+
+.nav-links li {
+  margin: 0 20px;
+  /*  &:hover {
+    }*/ }
+  .nav-links li a {
+    color: #303030; }
+    .nav-links li a:hover {
+      text-decoration: none;
+      border-bottom: 3px solid; }
+
+.main-text {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 713px; }
+
+.logo {
+  /*float:left;*/ }
+
+/* Rectangle 4: */
+/*border: 2px solid #FFFFFF;*/
+/*border-radius: 100px;*/
+/* Oval 2: */
+/*background: #D8D8D8;*/
+/* LEARN MORE: */
+.learn-more-btn {
+  font-size: 18px;
+  color: #303030;
+  letter-spacing: 0.5px;
+  border: 2px solid #303030;
+  border-radius: 26px;
+  display: inline-block;
+  padding: 1px 11px 0px 20px; }
+
+/* Rectangle 6: */
+/* Rectangle 6: */
+/* Hello! : */
+.hello {
+  font-size: 48px;
+  color: #50E3C2;
+  letter-spacing: 1.34px; }
+
+.main-text {
+  font-size: 64px;
+  letter-spacing: 1.34px; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("IcoMoon.ttf");
+  font-weight: normal;
+  font-style: normal; }
+.social-networks {
+  margin: 0 0 35px;
+  padding: 0;
+  font-size: 0;
+  text-align: center; }
+  .social-networks li {
+    display: inline-block; }
+  .social-networks a {
+    display: block;
+    position: relative;
+    margin: 0 7px;
+    width: 34px;
+    height: 34px;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+    text-decoration: none; }
+    .social-networks a:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
+      margin-top: -50%;
+      margin-left: -50%;
+      border-radius: 100px;
+      background-color: #1f2027;
+      transition: all 400ms; }
+    .social-networks a:after {
+      position: relative;
+      font-family: 'icomoon';
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #fff;
+      font-size: 15px;
+      line-height: 33px; }
+    .social-networks a:hover, .social-networks a:focus {
+      text-decoration: none; }
+  .social-networks.spin-icon a:hover:after, .social-networks.spin-icon a:focus:after {
+    transition: transform 0.4s ease-out;
+    transform: rotateZ(360deg); }
+  .social-networks .icon-linkedin:after {
+    content: ""; }
+  .social-networks .icon-linkedin:hover:before, .social-networks .icon-linkedin:focus:before {
+    background: #0077b5; }
+  .social-networks .icon-github:after {
+    content: ""; }
+  .social-networks .icon-github:hover:before, .social-networks .icon-github:focus:before {
+    background: #4183c4; }
+  .social-networks .icon-facebook:after {
+    content: ""; }
+  .social-networks .icon-facebook:hover:before, .social-networks .icon-facebook:focus:before {
+    background: #3b5998; }
+
+/*# sourceMappingURL=style.css.map */
