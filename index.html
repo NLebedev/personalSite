@@ -1,60 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nick Lebedev - Personal site</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
     <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/react/dist/react.js"></script>
+    <script src="node_modules/react-dom/dist/react-dom.js"></script>
     <script src="script.js"></script>
   </head>
   <body>
-    <div class="container"> 
-      <nav>
-        <div class="col-md-3">
-          <div class="row">
-            <div class="logo">Nick Lebedev</div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="row">
-            <ul class="nav-links">        
-              <li><a href=#>Blog</a></li>
-              <li><a href=#>Projects</a></li>
-              <li><a href=#>Contacts</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="row">
-            <ul class="social-networks spin-icon">
-              <li><a href="https://www.linkedin.com/" class="icon-linkedin">LinkedIn</a></li>
-              <li><a href="https://github.com" class="icon-github">GitHub</a></li>
-              <li><a href="https://www.facebook.com/" class="icon-facebook">Facebook</a></li>
-            </ul>
-          </div>
-        </div>
+    <div id="app"></div>
 
-
-<div class="learn-more-btn">LEARN MORE
-  <svg width="9px" height="14px" viewBox="115 10 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <path d="M122.999414,16.8646629 C123.005137,17.0108885 122.955632,17.158831 122.843745,17.2710041 C122.818849,17.2956135 122.781935,17.2890319 122.754178,17.3073459 L115.931366,23.5664316 C115.718466,23.7790453 115.373362,23.7790453 115.160462,23.5664316 C114.947562,23.3535316 114.947562,23.0084278 115.160462,22.7949555 L121.628155,16.8629459 L115.15989,10.9300779 C114.946703,10.717178 114.946703,10.3717879 115.15989,10.1594603 C115.372789,9.94684656 115.717893,9.94684656 115.930793,10.1594603 L122.751889,16.4156844 C122.780791,16.435143 122.818849,16.4285614 122.844317,16.4543155 C122.957349,16.5667747 123.005995,16.7164342 122.999414,16.8646629 L122.999414,16.8646629 Z" id="Shape" stroke="none" fill="#50E3C2" fill-rule="evenodd"></path>
-  </svg>
-  <svg width="9px" height="14px" viewBox="115 10 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <path d="M122.999414,16.8646629 C123.005137,17.0108885 122.955632,17.158831 122.843745,17.2710041 C122.818849,17.2956135 122.781935,17.2890319 122.754178,17.3073459 L115.931366,23.5664316 C115.718466,23.7790453 115.373362,23.7790453 115.160462,23.5664316 C114.947562,23.3535316 114.947562,23.0084278 115.160462,22.7949555 L121.628155,16.8629459 L115.15989,10.9300779 C114.946703,10.717178 114.946703,10.3717879 115.15989,10.1594603 C115.372789,9.94684656 115.717893,9.94684656 115.930793,10.1594603 L122.751889,16.4156844 C122.780791,16.435143 122.818849,16.4285614 122.844317,16.4543155 C122.957349,16.5667747 123.005995,16.7164342 122.999414,16.8646629 L122.999414,16.8646629 Z" id="Shape" stroke="none" fill="#50E3C2" fill-rule="evenodd"></path>
-  </svg>
-</div>
-
-
-
-
-
-
-
-
-      </nav>
-      <section class='main-text'>
-      <!-- <div class="hello">Hello!e</div> -->
-      <div class='big-block'>My name is Nick Lebedev and I am a software engineer.</div>
-      </section>
-      </div>
+    <script src="compiled/src/components/Nav.js"></script>
+    <script src="compiled/src/components/Home.js"></script>
+    <script src="compiled/src/components/Blog.js"></script>
+    <script src="compiled/src/components/Projects.js"></script>
+    <script src="compiled/src/components/Contacts.js"></script>
+    <script src="compiled/src/components/App.js"></script>
+    <script src="compiled/src/index.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
